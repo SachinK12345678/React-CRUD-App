@@ -1,0 +1,128 @@
+.main-read-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin:50px;
+    
+  
+  
+}
+.sub-read-container{
+     height: 370px;
+     width: 427px;
+     background-color:rgb(243, 233, 245);
+     padding: 20px;
+     margin-top:25px;
+     box-shadow: 0px 0px 10px rgb(0, 0, 0),
+     0px 0px 20px rgb(0, 0, 0),
+     0px 0px 30px rgb(0, 0, 0);
+     background-color:white;
+    
+
+}
+.sub-read-container:hover{
+    background-color:rgb(22, 22, 22);
+    color: white;
+    box-shadow: none;
+
+
+
+}
+
+
+
+/* NAV BAR  */
+
+.Nav-main{
+    width:100%;
+    height:75px;
+    background-color: powderblue;
+}
+.nav-article{
+    display:flex;
+    align-items: center;
+    height:74px;
+    width:90%;
+    margin: 0 auto;
+   
+}
+.nav-article>li{
+    display: flex;
+    position: relative;
+    width:200px;
+    left:800px;
+    text-decoration: none;
+    list-style: none;
+
+}
+.MenuLinks{
+    text-decoration: none;
+    font-size:20px;
+    font-weight:590;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.2s linear;
+    transition-duration:0.3s ease-in-out;
+}
+.MenuLinks:hover{
+    font-size:22px;
+    font-weight:600;
+    color:red;
+
+}
+
+.update-btn{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.btn-block{
+    position: relative;
+    top:60px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+.home-hero{
+    background-image: url('https://media.istockphoto.com/id/1573329496/photo/multi-layers-color-texture-3d-papercut-layers-in-gradient-vector-banner-carving-art-cover.webp?b=1&s=170667a&w=0&k=20&c=fw4EudwOH6cg8roUz_A4ARgGIlz6na94y6TVUUzYz6k=');
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+}
+.logo{
+    height:70px;
+    width:120px;
+    border-radius:50px;
+}
+
+
+/* form */
+
+.Crd-Main{
+    height:400px;
+    width:500px;
+    margin-left:500px;
+   margin-top:160px;
+   padding:30px;
+   padding-top:30px;
+   box-shadow: 0px 0px 10px rgb(0, 0, 0),
+               0px 0px 20px rgb(0, 0, 0),
+               0px 0px 30px rgb(0, 0, 0); ;
+}
+.Crd-Main:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    box-shadow: none;
+}
+.register-label{
+    width:40%;
+}
+.register-head{
+    position:relative;
+    margin-bottom:50px;
+}
+#register-btn{
+     position:relative;
+     top:15px;
+}
